@@ -1,24 +1,15 @@
 import React from "react";
 import '../App.css';
 
-
 export const Campos = () =>{
     return(
         <div>
             {/*menú de navegación*/}
             <header className="App-header" id="inicio">
-                <img class="hamburguer" src="img/hamburguesa.svg" alt="" />
-                <nav class="menu-navegacion">
-                <a href="#inicio">Inicio</a>
-                        <a href="#servicio">Campos</a>
-                        <a href="#galeria">Portafolio</a>
-                        <a href="#footer">Contacto</a>
-                </nav>
-                {/*------------------------------------------------------------------------------*/}
                 {/*Información principal (head)*/}
                 <div class="contenedor head">
                     <h1 class="titulo">Bienvenido a Club paintball medellín</h1>
-                    <p class="copy">Somos la mejor opción para la práctica del paintball en la ciudad.</p>
+                    <p class="copy">❇ Somos la mejor opción para la práctica del paintball en la ciudad ven y disfruta en familia.</p>
                 </div>
             </header>
             {/*------------------------------------------------------------------------------*/}
